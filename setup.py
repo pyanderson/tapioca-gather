@@ -18,7 +18,7 @@ except (IOError, ImportError):
 
 package = "tapioca_gather"
 requirements = [
-    "tapioca-wrapper<2",
+    "tapioca-wrapper==2.1.0",
 ]
 test_requirements = []
 
@@ -66,7 +66,7 @@ if sys.argv[-1] == "publish":
 setup(
     name="tapioca-gather",
     version=get_version(package),
-    description="gather API wrapper using tapioca",
+    description="Gather API wrapper using tapioca",
     long_description=readme,
     author=get_author(package),
     author_email=get_email(package),
@@ -79,7 +79,7 @@ setup(
     install_requires=requirements,
     license="MIT",
     zip_safe=False,
-    keywords="gather",
+    keywords=["gather", "gather-town", "api", "tapioca"],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",

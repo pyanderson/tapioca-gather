@@ -1,4 +1,4 @@
-# Tapioca gather
+# Tapioca Gather
 
 ## Installation
 ```

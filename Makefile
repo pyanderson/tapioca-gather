@@ -56,7 +56,7 @@ docs:
 
 release: clean
 	make dist
-	twine upload -r tapioca_gather dist/*
+	twine upload -r tapioca-gather dist/*
 
 dist: clean
 	python setup.py sdist
